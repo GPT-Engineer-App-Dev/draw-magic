@@ -73,4 +73,7 @@
   body {
     @apply bg-background text-foreground;
   }
+  canvas {
+    touch-action: none; /* Prevent scrolling on touch devices while drawing */
+  }
 }
